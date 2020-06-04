@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UFT-8">
+	<title>Eindwerk Minimalisme</title>
+	<link rel="icon" href="img/home.png" type="image/png" sizes="24x24">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script defer src="js/script.js"></script>
+	<!-- 'defer' zorgt ervoor dat het script pas laad wanneer de html geladen is -->
+	<!--Met dank aan Jens De Muynck & Ayman El Gharbi-->
+</head>
+
+<body>
+	<script>
+		// 2. This code loads the IFrame Player API code asynchronously.
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	</script>
+
+	<div class="loader-wrapper">
+		<p style="padding-right: 20px">Welkom</p>
+		<span class="loader"><span class="loader-inner"></span></span>
+	</div>
+
+	<div id="div">
+		<article>
+			<div class="media-container">
+				<img id="Img1" src="img/thu_Guillaume.jpg">
+				<div id="playerContainer1">
+					<div id="Player1"></div>
+				</div>
+			</div>
+			<h2>Guillaume</h2>
+			<p>Wat is minimalisme?</p>
+		</article>
+		<article>
+			<div class="media-container">
+				<img id="Img2" src="img/thu_Karolien.jpg">
+				<div id="playerContainer2">
+					<div id="Player2"></div>
+				</div>
+			</div>
+			<h2>Karolien</h2>
+			<p>Hoe een opruimcoach je leven kan veranderen.</p>
+		</article>
+		<article>
+			<div class="media-container">
+				<img id="Img3" src="img/thu_Miet.jpg"">
+					<div id=" playerContainer3">
+				<div id="Player3"></div>
+			</div>
+	</div>
+	<h2>Miet</h2>
+	<p>Leningvrij leven.</p>
+	</article>
+	<article>
+		<div class="media-container">
+			<img id="Img4" src="img/thu_Sumeyye.jpg">
+			<div id="playerContainer4">
+				<div id="Player4"></div>
+			</div>
+		</div>
+		<h2>Sumeyye</h2>
+		<!--<p>Kleerkast, AirBnb.</p>-->
+	</article>
+	<article>
+		<div class="media-container">
+			<img id="Img5" src="img/thu_Britt.jpg">
+			<div id="playerContainer5">
+				<div id="Player5"></div>
+			</div>
+		</div>
+		<h2>Britt</h2>
+		<p>Uit een burn-out geraakt door op te ruimen.</p>
+	</article>
+	<article>
+		<div class="media-container">
+			<img id="Img6" src="img/thu_Stef.jpg">
+			<div id="playerContainer6">
+				<div id="Player6"></div>
+			</div>
+		</div>
+		<h2>Stef</h2>
+		<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
+	</article>
+	</div>
+
+	<div class="sidebar">
+		<div>
+			<p class="heading"><span>Wat is minimalisme?</span></p>
+			<a href="dossier.html">
+				<p>Dossier</p>
+			</a>
+		</div>
+		<div>
+			<p class="heading"><span>Gemaakt door</span></p>
+			<p>Brecht Matthys</p>
+			<p>Emile Watt&#233;</p>
+		</div>
+		<div>
+			<p class="heading"><span>Onder begeleiding van</span></p>
+			<p>Jokelien Vanden Broucke</p>
+			<p>Karla Stautemas</p>
+			<p>David Goemaere</p>
+		</div>
+		<div>
+			<p class="heading"><span>Met dank aan</span></p>
+			<p>Guillaume Vandurme</p>
+			<p>Karolien De Craecker</p>
+			<p>Miet Vanhassel</p>
+			<p>Sumeyya Ata</p>
+			<p>Britt Janssen</p>
+			<p>Stef Vliegen</p>
+		</div>
+		<div>
+			<p class="heading"><span>Special thanks to</span></p>
+			<a href="https://www.nelecolle.be" target="_blank">
+  				<p>Nele Colle</p>
+  			</a>
+  			<p>Jens De Muynck</p>
+  			<p>Ayman El Gharbi</p>
+		</div>
+	</div>
+</body>
+
+</html>
