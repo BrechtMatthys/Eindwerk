@@ -1,12 +1,12 @@
 html,
 body {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 89%;
+	font-size: 14px;
 
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	color: red;
+	color: pink;
 }
 #div {
 	width: 90%;
