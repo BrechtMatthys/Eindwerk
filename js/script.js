@@ -16,12 +16,12 @@ $('html, body').css('overflowY', 'auto');
 
 // Video IDs
 const videoId_collection = [
-	'QvsB3SSAOzE', // Video ID 1
-	'QvsB3SSAOzE', // Video ID 2
-	'SlHjmAqY4cQ', // Video ID 3
-	'QvsB3SSAOzE', // Video ID 4
-	'aSElgoCO2EU', // Video ID 5
-	'39qsPMZ4DBs' // Video ID 6
+	'9JpxyxjYi9E', // Video ID 1 - Guillaume
+	'rtLjgRkeAHo', // Video ID 2 - Karolien
+	'FdGFcPq0OlI', // Video ID 3 - Miet
+	'300PM2DXQGU', // Video ID 4 - Sumeyye
+	'aSElgoCO2EU', // Video ID 5 - Britt
+	'mFTWCw0SYEA' //  Video ID 6 - Stef
 ];
 
 let recalculateSize = () => {
