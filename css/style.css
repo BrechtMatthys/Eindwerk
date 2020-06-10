@@ -152,13 +152,13 @@ a:hover {
 		margin: calc(10% / 2);
 	}
 	h2{
-		font-size: 18px;
+		font-size: 40px;
 	}
 	p{
-		font-size: 16px;
+		font-size: 30px;
 	}
 	.loader-wrapper p{
-		font-size: 	70px;
+		font-size: 	30px;
 	}
 	/*.loader-wrapper {
 		width: 100%;
