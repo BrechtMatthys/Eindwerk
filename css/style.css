@@ -6,6 +6,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	color: red;
 }
 #div {
 	width: 90%;
@@ -158,7 +159,7 @@ a:hover {
 		font-size: 36px;
 	}
 	p{
-		font-size: 25px;
+		font-size: 23px;
 	}
 	.sidebar{
 		font-size: 36px;
@@ -189,4 +190,16 @@ a:hover {
 		background-color: #e1e1e1;
 		animation: loader-inner 2s infinite ease-in;
 	}*/
+
+	.sidebar {
+		padding: 25px 12px;
+		display: flex;
+		flex-direction: column;
+	}
+	.sidebar div {
+		margin-bottom: 20px;
+	}
+	.sidebar .heading {
+		margin-bottom: 5px;
+	}
 }
