@@ -151,18 +151,17 @@ a:hover {
 		flex: 1 90%;
 		margin: calc(10% / 2);
 	}
+	.loader-wrapper p{
+		font-size: 	35px;
+	}
 	h2{
 		font-size: 36px;
 	}
 	p{
-		font-size: 28px;
-	}
-	.loader-wrapper p{
-		font-size: 	35px;
+		font-size: 25px;
 	}
 	.sidebar{
 		font-size: 36px;
-
 	}
 	/*.loader-wrapper {
 		width: 100%;
