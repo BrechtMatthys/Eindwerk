@@ -6,7 +6,6 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	color: pink;
 }
 #div {
 	width: 90%;
@@ -29,6 +28,7 @@ img,
 img:hover {
 	cursor: pointer;
 }
+iframe{min-height: 100px;}
 
 h2 {
 	padding: 5px;
@@ -163,35 +163,6 @@ a:hover {
 	}
 	.sidebar{
 		font-size: 36px;
-	}
-	/*.loader-wrapper {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-		background-color: #faf8f9;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.loader {
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-		position: relative;
-		border: 2px solid #d1d1d1;
-		animation: loader 2s infinite ease;
-	}
-	.loader-inner {
-		vertical-align: top;
-		display: inline-block;
-		width: 100%;
-		background-color: #e1e1e1;
-		animation: loader-inner 2s infinite ease-in;
-	}*/
-
-	.sidebar {
 		padding: 25px 12px;
 		display: flex;
 		flex-direction: column;
