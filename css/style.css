@@ -178,6 +178,7 @@ i{
 	}
 	p{
 		font-size: 12px;
+		max-height: 999999px;
 	}
 	.sidebar{
 		font-size: 36px;
