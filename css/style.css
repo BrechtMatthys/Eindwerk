@@ -25,6 +25,11 @@ article {
 	justify-content: space-between;
 	margin-top: 2%;
 }
+#div2 article{
+	background-color: #fffefc;
+	flex: 1 calc(90% / 2);
+	margin: calc(10% / 4);
+}
 
 img,
 #playerContainer {
