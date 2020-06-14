@@ -18,6 +18,13 @@ article {
 	flex: 1 calc(90% / 3);
 	margin: calc(10% / 6);
 }
+#div2 {
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 2%;
+}
 
 img,
 #playerContainer {
@@ -136,7 +143,8 @@ i{
 	padding-left: 6px;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
+
+/**/
 @media screen and (max-width: 1200px) {
 	body {
 		display: flex;
@@ -162,9 +170,21 @@ i{
 	.sidebar div {
 		margin: 0;
 	}
-}
 
-/* On screens that are 600px or less, set the background color to olive */
+	#div2 {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 2%;
+	}
+	
+	#div2 article {
+		flex: 1 100%;
+		margin: calc(10% / 2);
+	}
+}
+/**/
 @media screen and (max-width: 1000px) {
 	article {
 		flex: 1 90%;
