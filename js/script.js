@@ -17,7 +17,7 @@ $('html, body').css('overflowY', 'auto');
 // Video IDs
 const videoId_collection = [
 	'_kJiNIjyero', // Video ID 1 - Guillaume
-	'rtLjgRkeAHo', // Video ID 2 - Karolien
+	'KNg6i8YV7LE', // Video ID 2 - Karolien
 	'xL85lcVU5ag', // Video ID 3 - Miet
 	'uXbBiJam24U', // Video ID 4 - Sumeyye
 	'aSElgoCO2EU', // Video ID 5 - Britt
