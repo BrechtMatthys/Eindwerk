@@ -174,13 +174,15 @@ i{
 		font-size: 	35px;
 	}
 	h1{
-		font-size: 42px;
+		font-size: 30px;
 	}
 	h2{
 		font-size: 36px;
 	}
 	p{
 		font-size: 23px;
+	}
+	h1, h2, p{
 		max-height: 999999px;
 	}
 	.sidebar{
