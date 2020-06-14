@@ -1,7 +1,6 @@
 html,
 body {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 14px;
 
 	width: 100%;
 	display: flex;
@@ -36,12 +35,20 @@ img:hover {
 	letter-spacing:1px;
 	line-height:16px;
 }*/
+
+h1 {
+	font-size: 14px;
+	padding: 5px;
+} 
 h2 {
+	font-size: 14px;
+	padding: 5px 0 2px 5px;
+}
+p {
+	font-size: 13px;
 	padding: 5px;
 }
-h1, p{
-	padding: 5px;
-}
+
 a {
 	color: #000000;
 	text-decoration: none;
