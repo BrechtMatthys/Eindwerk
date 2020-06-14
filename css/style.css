@@ -28,11 +28,18 @@ img,
 img:hover {
 	cursor: pointer;
 }
-
+/*h1{
+	font-size:1.1em;
+	margin: 0px;		        
+    text-decoration: none;
+	font-weight:600;
+	letter-spacing:1px;
+	line-height:16px;
+}*/
 h2 {
 	padding: 5px;
 }
-p {
+h1, p{
 	padding: 5px;
 }
 a {
