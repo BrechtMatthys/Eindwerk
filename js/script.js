@@ -16,12 +16,12 @@ $('html, body').css('overflowY', 'auto');
 
 // Video IDs
 const videoId_collection = [
-	'_kJiNIjyero', // Video ID 1 - Guillaume
+	'h5gIIHMQpcA', // Video ID 1 - Guillaume
 	'KNg6i8YV7LE', // Video ID 2 - Karolien
 	'xL85lcVU5ag', // Video ID 3 - Miet
 	'uXbBiJam24U', // Video ID 4 - Sumeyye
-	'aSElgoCO2EU', // Video ID 5 - Britt
-	'JjpsHwNqiRY' //  Video ID 6 - Stef
+	'Z6paZ436198', // Video ID 5 - Britt
+	'HFzRSbtvSeA' //  Video ID 6 - Stef
 ];
 
 let recalculateSize = () => {
