@@ -54,7 +54,6 @@ $(document).ready(function () {
 		// Creëer yt player logic
 		$(`#Img${i}`).click(function () {
 			if ($(`#Player${i}`).is('div')) {
-				$(this).hide();
 				player = new YT.Player(`Player${i}`, {
 					height: video_ratios[i - 1].height, // Bereken de hoogte op basis van de breedte
 					width: '100%',
@@ -68,6 +67,7 @@ $(document).ready(function () {
 						onStateChange: onPlayerStateChange
 					}
 				});
+				$(this).hide();
 			} else {
 				player.autohide = 1;
 				player.playVideo();
