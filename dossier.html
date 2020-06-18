@@ -1,85 +1,113 @@
 <!DOCTYPE html>
 <html lang="nl">
-	<head>
-		<meta charset="UFT-8">
-		<title>Dossier Minimalisme</title>
-		<link rel="icon" href="img/home.png" type="image/png" sizes="24x24">
 
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UFT-8" name="viewport" content="width=device-width" />
+  <title>Dossier Minimalisme</title>
+  <link rel="icon" href="img/home.png" type="image/png" sizes="24x24" />
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="js/script.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
 
-    	<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width">
-		<!--Met dank aan Jens De Muynck & Ayman El Gharbi-->
-	</head>
-	<body>
-		<script>
-	      // 2. This code loads the IFrame Player API code asynchronously.
-	      var tag = document.createElement('script');
+  <!-- JAVASCRIPT -->
+  <script defer src="js/loader.js"></script>
+  <script defer src="js/yt-api.js"></script>
 
-	      tag.src = "https://www.youtube.com/iframe_api";
-	      var firstScriptTag = document.getElementsByTagName('script')[0];
-	      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-	    </script>
-	    
-	    <div class="loader-wrapper">
-	    	<p style="padding-right: 20px">Laden</p>
-		    <span class="loader"><span class="loader-inner"></span></span>
-		</div>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-		<div id="div2">
-			<article>
-				<object data="dossier/Documentaire_Shots-die-wij-willen-zien_Sumeyye.pdf" type="application/pdf" style="min-height:91vh;width:100%"></object>
-			</article>
-		</div>
+  <!--Met dank aan Jens De Muynck & Ayman El Gharbi-->
+</head>
 
-		<div id="div2">
-			<article>
-				<object data="dossier/Documentaire_Shots-die-wij-willen-zien_Sumeyye.pdf" type="application/pdf" style="min-height:91vh;width:100%"></object>
-			</article>
-		</div>
+<body>
 
+  <div class="loader-wrapper">
+    <p style="padding-right: 20px;">Laden</p>
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
 
-		<div class="sidebar">
-			<div>
-				<p class="heading"><span>Wat is minimalisme?</span></p>
-				<a href="index.html">
-					<p>Home</p>
-				</a>
-			</div>
-			<div>
-				<p class="heading"><span>Gemaakt door</span></p>
-				<p>Brecht Matthys</p>
-				<p>Emile Watt&#233;</p>
-			</div>
-			<div>
-				<p class="heading"><span>Onder begeleiding van</span></p>
-				<p>Jokelien Vanden Broucke</p>
-				<p>Karla Stautemas</p>
-				<p>David Goemaere</p>
-			</div>
-			<div>
-				<p class="heading"><span>Met dank aan</span></p>
-				<p>Guillaume Van Durme</p>
-				<p>Karolien De Craecker</p>
-				<p>Miet Vanhassel</p>
-				<p>Sumeyya Ata</p>
-				<p>Britt Janssen</p>
-				<p>Stef Vliegen</p>
-			</div>
-			<div>
-				<p class="heading"><span>Special thanks to</span></p>
-				<a href="https://www.nelecolle.be" target="_blank">
-	  				<p>Nele Colle</p>
-	  			</a>
-  				<p>Jens De Muynck</p>
-  				<p>Ayman El Gharbi</p>
-			</div>
-		</div>
-	</body>
+  <div class="content">
+
+    <div class="grid">
+      <div id="div2">
+        <object data="dossier/Documentaire_Shots-die-wij-willen-zien_Sumeyye.pdf" type="application/pdf"
+          style="min-height: 91vh; width: 100%;"></object>
+      </div>
+
+      <div id="div2">
+        <object data="dossier/Documentaire_Shots-die-wij-willen-zien_Sumeyye.pdf" type="application/pdf"
+          style="min-height: 91vh; width: 100%;"></object>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <ul>
+        <li class="heading">Wat is minimalisme?</li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <div class="sidebar_content">
+        <div class="column">
+          <ul>
+            <li class="sub_heading">Gemaakt door</li>
+            <li>Brecht Matthys</li>
+            <li>Emile Watté</li>
+          </ul>
+          <ul>
+            <li class="sub_heading">Onder begeleiding van</li>
+            <li>Jokelien Vanden Broucke</li>
+            <li>Karla Stautemas</li>
+            <li>David Goemaere</li>
+          </ul>
+        </div>
+        <ul>
+          <li class="sub_heading">Met dank aan</li>
+          <li>
+            <a href="http://guillaumevandurme.be" target="_blank">Guillaume Van Durme
+              <i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://be.linkedin.com/in/karoliendecraecker" target="_blank">Karolien De Craecker
+              <i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="http://tinytalks.be/over.html" target="_blank">Miet Vanhassel
+              <i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://www.sumeyyeata.com" target="_blank">Sumeyye Ata<i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://www.ontwar.be" target="_blank">Britt Janssen<i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://be.linkedin.com/in/stef-vliegen" target="_blank">Stef Vliegen
+              <i class="fas fa-external-link-alt"></i></a>
+          </li>
+        </ul>
+        <ul>
+          <li class="sub_heading">Special thanks to</li>
+          <li>
+            <a href="https://www.nelecolle.be" target="_blank">Nele Colle<i class="fas fa-external-link-alt"></i></a>
+          </li>
+          <li>
+            <a href="https://www.jensdemuynck.be" target="_blank">Jens De Muynck<i
+                class="fas fa-external-link-alt"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName("script")[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  </script>
+</body>
+
 </html>
