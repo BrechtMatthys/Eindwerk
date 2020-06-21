@@ -1,4 +1,3 @@
-
 html {
   font-size: 62.5%;
   width: 100%;
@@ -10,7 +9,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 0.90rem;
+  font-size: 0.9rem;
 }
 
 /* INDEX */
@@ -30,75 +29,85 @@ body {
   justify-content: space-between;
 }
 
-.content .grid_item{
+.content .grid_item {
   background-color: #fffefc;
   flex: 1 calc(90% / 3);
   margin: calc(10% / 6);
 }
 
 /* RESPONSIVE IFRAME */
-.content .media{
-	position:relative;
+.content .media {
+  position: relative;
   width: 100%;
   height: 75%;
 }
 
-.media iframe, .media object, .media embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-  height:100%;
+.media iframe,
+.media object,
+.media embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.media iframe {
+  background-image: url("https://i.ya-webdesign.com/images/minimalist-transparent-loading-gif-4.gif");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* END RESPONSIVE IFRAME */
 
-.content img{
+.content img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   cursor: pointer;
 }
 
-.content h1{
+.content h1 {
   font-size: 1.5rem;
   margin-top: 10px;
 }
 
-.content h1, .content p{
+.content h1,
+.content p {
   padding: 5px;
 }
 
-.sidebar{
+.sidebar {
   padding-left: 20px;
   width: 200px;
 }
 
-.sidebar .sidebar_content{
+.sidebar .sidebar_content {
   display: flex;
   flex: 1;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.sidebar li{
+.sidebar li {
   margin-bottom: 10px;
 }
 
-.sidebar a{
+.sidebar a {
   color: black;
   text-decoration: none;
 }
 
-.sidebar a:hover{
+.sidebar a:hover {
   text-decoration: underline;
 }
 
-.sidebar .heading{
+.sidebar .heading {
   font-size: 1.4rem;
   margin-bottom: 15px;
 }
 
-.sidebar .sub_heading{
+.sidebar .sub_heading {
   margin: 30px 0 15px;
 }
 
@@ -199,48 +208,48 @@ i {
     padding: 0;
     width: 100%;
   }
-  .content .grid{
+  .content .grid {
     padding-top: 0;
   }
 
-  .content h1{
+  .content h1 {
     font-size: 1.5rem;
   }
 
-  .content .grid_item{
+  .content .grid_item {
     flex: 1 calc(90% / 2);
     margin: calc(10% / 4);
   }
 
-  .content .sidebar{
+  .content .sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
     margin: 0 auto;
-    padding: calc(5%/2);
+    padding: calc(5% / 2);
   }
 
-  .sidebar .sidebar_content{
+  .sidebar .sidebar_content {
     flex-direction: row;
   }
 
-  .sidebar > ul{
+  .sidebar > ul {
     width: 20%;
   }
 
-  .sidebar .column{
+  .sidebar .column {
     display: flex;
     width: 40%;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .sidebar .heading{
+  .sidebar .heading {
     font-size: 1.4rem;
   }
 
-  .sidebar .sub_heading{
+  .sidebar .sub_heading {
     margin-top: 0;
     margin-bottom: 20px;
   }
@@ -256,53 +265,63 @@ i {
     position: relative;
   }
 
-  #div2::after{
-    content: 'Deze browser heeft geen ondersteuning voor het tonen van PDF bestanden.';
+  #div2::after {
+    content: "Deze browser heeft geen ondersteuning voor het tonen van PDF bestanden.";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-style: italic;
-    z-index: -1
+    z-index: -1;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .content{
-  font-size: 2rem;
+  .content {
+    font-size: 2rem;
   }
 
-  .content h1{
+  .content h1 {
     font-size: 3rem;
   }
 
-  .content .sidebar{
+  .content .sidebar {
     flex-direction: column;
     justify-content: center;
     padding: 5%;
     width: 90%;
+    font-size: 2.35rem;
   }
 
-  .content .sidebar > ul{
+  .content .sidebar > ul {
     width: 100%;
   }
 
-  .sidebar .heading{
+  .sidebar .heading {
     font-size: 3rem;
   }
 
-  .sidebar .column{
+  .sidebar .column {
     flex-direction: column;
     width: calc(100% / 3);
   }
 
-  .sidebar .sub_heading{
+  .sidebar .sub_heading {
     margin: 30px 0 20px;
   }
 
-  .content .grid_item{
+  .content .grid_item {
     flex: 1 calc(90% / 1);
     margin: calc(10% / 2);
+  }
+
+  .grid_item h1 {
+    font-size: 4.5rem;
+    padding-bottom: 20px;
+  }
+
+  .grid_item p {
+    font-size: 3rem;
   }
 
   .loader-wrapper {
