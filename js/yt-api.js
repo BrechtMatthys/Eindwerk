@@ -1,7 +1,7 @@
 const video_ids = [
     {
         name: 'Guillaume',
-        video_id: 'NmJKVq0bYOk',
+        video_id: 'GfnyTT0fBRY',
         img_el: '',
         vid_el: '',
         size: {
@@ -11,7 +11,7 @@ const video_ids = [
     },
     {
         name: 'Karolien',
-        video_id: 'KNg6i8YV7LE',
+        video_id: 'i6uRA8lJUio',
         img_el: '',
         vid_el: '',
         size: {
@@ -21,7 +21,7 @@ const video_ids = [
     },
     {
         name: 'Miet',
-        video_id: 'oJEdfRKNAIU',
+        video_id: '5h8VtzUlwlI',
         img_el: '',
         vid_el: '',
         size: {
@@ -31,7 +31,7 @@ const video_ids = [
     },
     {
         name: 'Sumeyye',
-        video_id: 'uXbBiJam24U',
+        video_id: 'weQp0po_NVA',
         img_el: '',
         vid_el: '',
         size: {
@@ -41,7 +41,7 @@ const video_ids = [
     },
     {
         name: 'Britt',
-        video_id: 'DbtkKI_1Orc',
+        video_id: 'EaaR6n-1uRw',
         img_el: '',
         vid_el: '',
         size: {
@@ -51,7 +51,7 @@ const video_ids = [
     },
     {
         name: 'Stef',
-        video_id: 'Dlr7O9Zy6mw',
+        video_id: 'HFzRSbtvSeA',
         img_el: '',
         vid_el: '',
         size: {
