@@ -91,6 +91,7 @@ body {
 
 .sidebar li {
   margin-bottom: 10px;
+  /*max-height: 999999px;*/
 }
 
 .sidebar a {
