@@ -94,8 +94,7 @@ p, h1{
 }
 
 .sidebar li {
-  margin-bottom: 10px;
-  /*max-height: 999999px;*/
+  margin: 10px 0;
 }
 
 .sidebar a {
@@ -331,5 +330,13 @@ i {
 
   .loader-wrapper {
     font-size: 3rem;
+  }
+
+  .sidebar li {
+    margin: 20px 0;
+  }
+
+  .sidebar .sub_heading{
+    margin-bottom: 40px;
   }
 }
