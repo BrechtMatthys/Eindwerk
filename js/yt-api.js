@@ -1,6 +1,6 @@
 const video_ids = [
     {
-        name: 'Guillaume',
+        name: 'Portret van Guillaume',
         video_id: 'GfnyTT0fBRY',
         img_el: '',
         vid_el: '',
@@ -10,7 +10,7 @@ const video_ids = [
         }
     },
     {
-        name: 'Karolien',
+        name: 'Portret van Karolien',
         video_id: 'i6uRA8lJUio',
         img_el: '',
         vid_el: '',
@@ -20,7 +20,7 @@ const video_ids = [
         }
     },
     {
-        name: 'Miet',
+        name: 'Portret van Miet',
         video_id: '5h8VtzUlwlI',
         img_el: '',
         vid_el: '',
@@ -30,7 +30,7 @@ const video_ids = [
         }
     },
     {
-        name: 'Sumeyye',
+        name: 'Portret van Sumeyye',
         video_id: 'weQp0po_NVA',
         img_el: '',
         vid_el: '',
@@ -40,7 +40,7 @@ const video_ids = [
         }
     },
     {
-        name: 'Britt',
+        name: 'Portret van Britt',
         video_id: 'EaaR6n-1uRw',
         img_el: '',
         vid_el: '',
@@ -50,7 +50,7 @@ const video_ids = [
         }
     },
     {
-        name: 'Stef',
+        name: 'Portret van Stef',
         video_id: 'b1c2vZmp9OY',
         img_el: '',
         vid_el: '',
