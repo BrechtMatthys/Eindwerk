@@ -12,6 +12,10 @@ body {
   font-size: 0.9rem;
 }
 
+p, h1{
+  max-height: 999999px;
+}
+
 /* INDEX */
 .content {
   width: 97%;
