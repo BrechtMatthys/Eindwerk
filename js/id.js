@@ -1,7 +1,5 @@
 $(document).ready(function(){
     "use strict";
-    
-	// Smooth Scroll
 		
 	$(function() {
 		$('a[href*="#"]:not([href="#"])').click(function() {
@@ -17,6 +15,4 @@ $(document).ready(function(){
 		}
 		});
 	});
-
-
 });
